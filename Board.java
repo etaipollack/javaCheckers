@@ -233,7 +233,7 @@ public class Board {
                         }
                         if (rowMove >= 1 && curCol >= 1 && colMove < cBoard[0].length - 1 && curRow < cBoard.length - 1) 
                         {
-                            if (cBoard[rowMove - 1][colMove + 1] == 'o' && cBoard[curRow + 1][curCol - 1] == 'o') 
+                            if (cBoard[rowMove - 1][colMove + 1] == getOppositePiece(piece) && cBoard[curRow + 1][curCol - 1] == getOppositePiece(piece)) 
                             {
                                 System.out.println("Success!\n " + piece + " has attacked the enemy piece");
                                 if(convertPiece(piece) == 'o') {
