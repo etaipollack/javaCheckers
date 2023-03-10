@@ -217,7 +217,7 @@ public class Board {
                             if (cBoard[rowMove - 1][colMove - 1] == getOppositePiece(piece) && cBoard[curRow + 1][curCol + 1] == getOppositePiece(piece)) 
                             {
                                 System.out.println("Success!\n " + piece + " has attacked the enemy piece");
-                                if(convertPiece(piece) == 'x') {
+                                if(convertPiece(piece) == 'o') {
 
                                     amtOfPiecesX--;
 
@@ -236,7 +236,7 @@ public class Board {
                             if (cBoard[rowMove - 1][colMove + 1] == 'o' && cBoard[curRow + 1][curCol - 1] == 'o') 
                             {
                                 System.out.println("Success!\n " + piece + " has attacked the enemy piece");
-                                if(convertPiece(piece) == 'x') {
+                                if(convertPiece(piece) == 'o') {
 
                                     amtOfPiecesX--;
 
@@ -279,7 +279,7 @@ public class Board {
                             if (cBoard[rowMove + 1][colMove - 1] == getOppositePiece(piece) && cBoard[curRow - 1][curCol + 1] == getOppositePiece(piece)) 
                             {
                                 System.out.println("Success!\n " + piece + " has attacked the enemy piece");
-                                if(convertPiece(piece) == 'x') {
+                                if(convertPiece(piece) == 'o') {
 
                                     amtOfPiecesX--;
 
@@ -298,7 +298,7 @@ public class Board {
                             if (cBoard[rowMove + 1][colMove + 1] == getOppositePiece(piece) && cBoard[curRow - 1][curCol - 1] == getOppositePiece(piece)) 
                             {
                                 System.out.println("Success!\n " + piece + " has attacked the enemy piece");
-                                if(convertPiece(piece) == 'x') {
+                                if(convertPiece(piece) == 'o') {
 
                                     amtOfPiecesX--;
 
