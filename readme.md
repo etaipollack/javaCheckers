@@ -1,8 +1,6 @@
-(Checkers)
+javaCheckers
 
 Written by Etai Pollack
-
-Explain what your project is, what it does, and how to use it.
 
 WHAT IT IS
 A fully playable game of checkers through the console
