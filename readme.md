@@ -1,7 +1,6 @@
 (Checkers)
 
-(Etai Pollack)
-(Griffin Miller)
+Written by Etai Pollack
 
 Explain what your project is, what it does, and how to use it.
 
